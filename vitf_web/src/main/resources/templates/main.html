@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-	<h1>TEST</h1>
-	<span>자 이제 <b> 시작이야 </b></span>
-	<br>
-	<span>내꿈은</span>
-</body>
-</html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{layout/layout}">
+<th:block layout:fragment="content">
+	<div class="container" style="text-align: center;">
+		<h1>TEST</h1>
+		<span>자 이제 <b> 시작이야 </b></span>
+		<br>
+		<span>내꿈은</span>
+	</div>
+</th:block>
